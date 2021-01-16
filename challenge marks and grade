@@ -1,0 +1,29 @@
+#include<stdio.h>
+main()
+{
+  int a,b,c,d;
+  float p;
+  printf("enter the marks");
+  scanf("%d%d%d%d",&a,&b,&c,&d);
+  p=(a+b+c+d)/4;
+  if(p>=85 && p<=100)
+ {
+    printf(" grade A");
+ }
+ else if (p>=70 && p<=84)
+ {
+    printf(" grade B");
+ }
+ else if (p>=55 && p<=69)
+ {
+    printf(" grade C");
+ }
+ else if(p>=40 && p<=54)
+ {
+    printf(" grade D");
+ }
+ else
+ {
+    printf("fail");
+ }
+}
